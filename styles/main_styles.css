@@ -620,7 +620,7 @@ section
 	right: 60px;
 	width: 45px;
 	height: 45px;
-	background: #B1B1B1;
+	background: #2f2f2f;
 	z-index: 10;
 	border-radius: 50%;
 	cursor: pointer;
@@ -632,7 +632,7 @@ section
 }
 .home_slider_next:hover
 {
-	background: #2f2f2f;
+	background: #B1B1B1;
 }
 .home_slider_dots_container
 {
@@ -1042,6 +1042,30 @@ section
 {
 	color: #FFFFFF;
 	background: #232323;
+}
+
+.product_slider_next
+{
+	position: absolute;
+	top: 54%;
+	width: 45px;
+	height: 45px;
+	background: #2f2f2f;
+	z-index: 10;
+	border-radius: 50%;
+	cursor: pointer;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	opacity:1;
+	margin-right: 20px;
+    margin-left: 20px;
+}
+.product_slider_next:hover
+{
+	background: #B1B1B1;
 }
 
 /*********************************
