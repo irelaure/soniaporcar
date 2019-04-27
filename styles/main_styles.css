@@ -1047,7 +1047,7 @@ section
 .product_slider_next
 {
 	position: absolute;
-	top: 54%;
+	top: 45%;
 	width: 45px;
 	height: 45px;
 	background: #2f2f2f;
@@ -1067,6 +1067,7 @@ section
 {
 	background: #B1B1B1;
 }
+
 
 /*********************************
 8. Extra
