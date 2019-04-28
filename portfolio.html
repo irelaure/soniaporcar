@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 	<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="plugins/magnific-popup/magnific-popup.css">
 	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 	<link rel="icon" href="favicon.ico">
@@ -23,7 +24,7 @@
 		<!-- Header -->
 		<header class="header">
 			<div class="header_inner d-flex flex-row align-items-center justify-content-start">
-				<div class="logo"><a href="index.html"><img id="logo" src="images/logoo.png" alt="SoniaPorcarLogo"></a></div>
+				<div class="logo"><a href="index.html"><img id="logo" src="images/logo.png" alt="SoniaPorcarLogo"></a></div>
 				<nav class="main_nav">
 					<ul>
 						<li><a href="index.html">home</a></li>
@@ -63,13 +64,80 @@
 			</nav>
 		</div>
 		<!-- Home -->
+		<div class="portfolio">
+			<div id="collection-code" class="container">
+				<div class="popup-gallery">
+					<div class="row">
+						<div class="col">
+							<div class="section_title_container text-center">
+								<div class="section_subtitle">Portfolio</div>
+								<div class="section_title">- Code 3o2-1 S/S 20-</div>
+							</div>
+						</div>
+					</div>
+					<div class="row products_container">
+						<!-- Product -->
+						<div class="col-lg-4 product_col">
+							<div class="product">
+								<div class="product_image">
+									<a href="images/Code_1.jpg"><img src="images/Code_1.jpg" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<!-- Product -->
+						<div class="col-lg-4 product_col">
+							<div class="product">
+								<div class="product_image">
+									<a href="images/Code_2.jpg"><img src="images/Code_2.jpg" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<!-- Product -->
+						<div class="col-lg-4 product_col">
+							<div class="product">
+								<div class="product_image">
+									<a href="images/Code_3.jpg"><img src="images/Code_3.jpg" alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row products_container">
+						<!-- Product -->
+						<div class="col-lg-4 product_col">
+							<div class="product">
+								<div class="product_image">
+									<a href="images/Code_4.jpg"><img src="images/Code_4.jpg" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<!-- Product -->
+						<div class="col-lg-4 product_col">
+							<div class="product">
+								<div class="product_image">
+									<a href="images/Code_5.jpg"><img src="images/Code_5.jpg" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<!-- Product -->
+						<div class="col-lg-4 product_col">
+							<div class="product">
+								<div class="product_image">
+									<a href="images/Code_6.jpg"><img src="images/Code_6.jpg" alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="container">
 				<div class="row">
 					<div class="col text-center">
-						<div class="footer_logo"><a href="#"><img id="logo" src="images/logoo.png" alt="SoniaPorcarLogo"></a></div>
+						<div class="footer_logo"><a href="#"><img id="logo" src="images/logo.png" alt="SoniaPorcarLogo"></a></div>
 						<nav class="footer_nav">
 							<ul>
 								<li><a href="#">home</a></li>
@@ -104,7 +172,29 @@
 	<script src="plugins/easing/easing.js"></script>
 	<script src="plugins/parallax-js-master/parallax.min.js"></script>
 	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+	<script src="plugins/magnific-popup/jquery.magnific-popup.js"></script>
 	<script src="js/custom.js"></script>
+	<script type="application/javascript">
+	$(document).ready(function() {
+		$('.popup-gallery').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+				preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+			},
+			image: {
+				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+				titleSrc: function(item) {
+					// return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+				}
+			}
+		});
+	});
+	</script>
 </body>
 
 </html>
