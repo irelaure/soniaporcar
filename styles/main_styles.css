@@ -693,7 +693,10 @@ section
 /*********************************
 5. Menu
 *********************************/
-
+.menu_mm .logo
+{
+	max-height: 60px;
+}
 .menu
 {
 	position: fixed;
