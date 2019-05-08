@@ -335,6 +335,7 @@ section
 *********************************/
 .logo {
 	height: 100%;
+	position: absolute;
 }
 .logo img
 {
