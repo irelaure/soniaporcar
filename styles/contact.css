@@ -554,6 +554,9 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
+	background-size: 100%!important;
+	background-repeat: no-repeat !important;
+  background-position: center !important;
 }
 .home_container
 {
@@ -614,6 +617,8 @@ section
 .about img {
 	width: 100%;
 }
+
+
 
 /*********************************
 5. Menu
@@ -1066,120 +1071,6 @@ section
 .accordion_panel p:last-child
 {
 	margin-bottom: 0;
-}
-
-/*********************************
-9. Newsletter
-*********************************/
-
-.newsletter
-{
-	width: 100%;
-	padding-left: 62px;
-	padding-right: 62px;
-}
-.newsletter_content
-{
-	width: 100%;
-	padding-top: 88px;
-	padding-bottom: 94px;
-}
-.newsletter_image
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-.newsletter .section_subtitle,
-.newsletter .section_title
-{
-	color: #FFFFFF;
-}
-.newsletter_container
-{
-	margin-top: 75px;
-}
-.newsletter_input
-{
-	width: 100%;
-	height: 46px;
-	background: #FFFFFF;
-	padding-left: 25px;
-	border: none;
-	outline: none;
-}
-.newsletter_input::-webkit-input-placeholder
-{
-	font-size: 12px !important;
-	font-weight: 400 !important;
-	font-style: italic;
-	color: #b3b3b3 !important;
-}
-.newsletter_input:-moz-placeholder
-{
-	font-size: 12px !important;
-	font-weight: 400 !important;
-	font-style: italic;
-	color: #b3b3b3 !important;
-}
-.newsletter_input::-moz-placeholder
-{
-	font-size: 12px !important;
-	font-weight: 400 !important;
-	font-style: italic;
-	color: #b3b3b3 !important;
-} 
-.newsletter_input:-ms-input-placeholder
-{ 
-	font-size: 12px !important;
-	font-weight: 400 !important;
-	font-style: italic;
-	color: #b3b3b3 !important;
-}
-.newsletter_input::input-placeholder
-{
-	font-size: 12px !important;
-	font-weight: 400 !important;
-	font-style: italic;
-	color: #b3b3b3 !important;
-}
-.newsletter_button
-{
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 142px;
-	height: 46px;
-	background: #BD1622;
-	color: #FFFFFF;
-	font-size: 12px;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.newsletter_button:hover
-{
-	background: #e0e3e4;
-	color: #232323;
-}
-.newsletter_text
-{
-	font-size: 14px;
-	font-style: italic;
-	color: #FFFFFF;
-	margin-top: 19px;
 }
 
 /*********************************
