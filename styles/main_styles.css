@@ -951,7 +951,8 @@ section
 .product_slider_next
 {
 	position: absolute;
-	top: 45%;
+	transform: translatey(-50%);
+	top: 50%;
 	width: 45px;
 	height: 45px;
 	background: #2f2f2f;
