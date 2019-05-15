@@ -314,7 +314,10 @@
 
 @media only screen and (max-width: 539px)
 {
-	
+		.contact_text
+	{
+		padding-top: 50px;
+	}
 }
 
 /************
@@ -323,7 +326,10 @@
 
 @media only screen and (max-width: 480px)
 {
-	
+		.contact_text
+	{
+		padding-top: 50px;
+	}
 }
 
 /************
@@ -332,7 +338,10 @@
 
 @media only screen and (max-width: 479px)
 {
-	
+		.contact_text
+	{
+		padding-top: 50px;
+	}
 }
 
 /************
@@ -341,5 +350,8 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+	.contact_text
+	{
+		padding-top: 50px;
+	}
 }
