@@ -361,6 +361,8 @@ section
 	-ms-transform: translateY(4px);
 	-o-transform: translateY(4px);
 	transform: translateY(4px);
+	margin-right: auto;
+  margin-left: auto;
 }
 .main_nav ul li
 {
