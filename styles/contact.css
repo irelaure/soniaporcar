@@ -618,6 +618,10 @@ section
 	width: 100%;
 }
 
+.about #title {
+	margin-bottom: 20px;
+}
+
 
 
 /*********************************
