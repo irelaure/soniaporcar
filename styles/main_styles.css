@@ -348,7 +348,6 @@ section
 	font-size: 30px;
 	color: #2f2f2f;
 	height: 100%;
-	margin-top: 50px;
 }
 #logo {
 		max-width:100%;
@@ -1388,7 +1387,7 @@ section
 
 .footer
 {
-	/*padding-top: 80px;*/
+	padding-top: 30px;
 }
 .footer_logo a
 {
