@@ -29,12 +29,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 @font-face
 {
-	font-family: 'Shree';
+	font-family: 'Lucida';
 	src: url('../fonts/ShreeDev0714-01.ttf')  format('truetype');
 }
 @font-face
 {
-	font-family: 'Shree';
+	font-family: 'Lucida';
 	src: url('../fonts/ShreeDev0714-01.ttf')  format('truetype');
 	font-weight: 700;
 }
@@ -258,7 +258,7 @@ section
 }
 .section_title
 {
-	font-family: 'Shree', serif;
+	font-family: 'Lucida', serif;
 	font-size: 60px;
 	text-transform: uppercase;
 	color: #2f2f2f;
@@ -339,7 +339,7 @@ section
 }
 .logo img
 {
-	font-family: 'Shree', serif;
+	font-family: 'Lucida', serif;
 	font-size: 30px;
 	color: #2f2f2f;
 	height: 100%;
@@ -571,7 +571,7 @@ section
 }
 .home_title
 {
-	font-family: 'Shree', serif;
+	font-family: 'Lucida', serif;
 	font-size: 36px;
 	color: #FFFFFF;
 	line-height: 0.75;
@@ -584,13 +584,13 @@ section
 {
 	display: inline-block;
 	position: relative;
-	font-family: 'Shree', serif;
+	font-family: 'Lucida', serif;
 	font-size: 16px;
 	color: #FFFFFF;
 }
 .breadcrumbs ul li a
 {
-	font-family: 'Shree', serif;
+	font-family: 'Lucida', serif;
 	font-size: 16px;
 	color: #FFFFFF;
 	-webkit-transition: all 200ms ease;
@@ -776,7 +776,7 @@ section
 }
 .review_form_title
 {
-	font-family: 'Shree', serif;
+	font-family: 'Lucida', serif;
 	font-size: 30px;
 	color: #232323;
 	text-transform: uppercase;
@@ -906,7 +906,7 @@ section
 }
 .contact_title
 {
-	font-family: 'Shree', serif;
+	font-family: 'Lucida', serif;
 	font-size: 30px;
 	color: #232323;
 	text-transform: uppercase;
@@ -1088,7 +1088,7 @@ section
 }
 .footer_logo a
 {
-	font-family: 'Shree', serif;
+	font-family: 'Lucida', serif;
 	font-size: 60px;
 	color: #232323;
 }
@@ -1153,7 +1153,7 @@ section
 {
 	margin-top: 56px;
 	padding-bottom: 13px;
-	font-family: 'Shree', serif;
+	font-family: 'Lucida', serif;
 	font-size: 12px;
 	color: #232323;
 }
