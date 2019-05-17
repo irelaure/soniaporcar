@@ -260,6 +260,10 @@ section
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 }
+.section_subtitle:hover
+{
+	color: #2f2f2f;
+}
 .section_title
 {
 	font-family: 'Lucida', serif;
