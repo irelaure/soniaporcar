@@ -67,7 +67,7 @@
 						<div class="col">
 							<div class="section_title_container wofM text-center">
 								<div class="section_subtitle">Portfolio</div>
-								<div class="section_title">- Technical Drawings -</div>
+								<div id="sec_tit_tecDraw" class="section_title"></div>
 							</div>
 						</div>
 					</div>
@@ -151,7 +151,7 @@
 						<div class="col">
 							<div class="section_title_container wofM text-center">
 								<div class="section_subtitle">Portfolio</div>
-								<div class="section_title">- Handbags -</div>
+								<div id ="sec_tit_handbags" class="section_title"></div>
 							</div>
 						</div>
 					</div>
@@ -215,7 +215,7 @@
 						<div class="col">
 							<div class="section_title_container wofM text-center">
 								<div class="section_subtitle">Portfolio</div>
-								<div class="section_title">- Shoes -</div>
+								<div id="sec_tit_shoes" class="section_title"></div>
 							</div>
 						</div>
 					</div>
@@ -279,7 +279,7 @@
 						<div class="col">
 							<div class="section_title_container wofM text-center">
 								<div class="section_subtitle">Portfolio</div>
-								<div class="section_title">- Prints -</div>
+								<div id="sec_tit_prints" class="section_title"></div>
 							</div>
 						</div>
 					</div>
@@ -410,6 +410,12 @@
 		document.getElementById('footer_nav_portfolio').innerHTML = i18next.t('nav_portfolio');
 		document.getElementById('footer_nav_about').innerHTML = i18next.t('nav_about');
 		document.getElementById('footer_nav_contact').innerHTML = i18next.t('nav_contact');
+
+		//Body
+		document.getElementById('sec_tit_tecDraw').innerHTML = i18next.t('sec_tit_tecDraw');
+		document.getElementById('sec_tit_handbags').innerHTML = i18next.t('sec_tit_handbags');
+		document.getElementById('sec_tit_shoes').innerHTML = i18next.t('sec_tit_shoes');
+		document.getElementById('sec_tit_prints').innerHTML = i18next.t('sec_tit_prints');
 	}
 
 	function changeLng(lng) {
