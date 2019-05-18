@@ -26,11 +26,11 @@
 				<div class="logo"><a href="index.html"><img id="logo" src="images/logo.png" alt="SoniaPorcarLogo"></a></div>
 				<nav class="main_nav">
 					<ul>
-						<li><a href="#">home</a></li>
-						<li><a href="collections.html">collections</a></li>
+						<li><a id="main_nav_home" href="#"></a></li>
+						<li><a id="main_nav_collections" href="collections.html"></a></li>
 						<li><a href="portfolio.html">portfolio</a></li>
-						<li><a href="about.html">about</a></li>
-						<li><a href="contact.html">contact</a></li>
+						<li><a id="main_nav_about" href="about.html"></a></li>
+						<li><a id="main_nav_contact" href="contact.html"></a></li>
 					</ul>
 				</nav>
 				<div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm">
@@ -53,7 +53,7 @@
 					<li class="menu_mm"><a href="#">home</a></li>
 					<li class="menu_mm"><a href="collections.html">collections</a></li>
 					<li class="menu_mm"><a href="portfolio.html">portfolio</a></li>
-					<li class="menu_mm"><a href="about.html">about</a></li>
+					<li  class="menu_mm"><a href="about.html"></a></li>
 					<li class="menu_mm"><a href="contact.html">contact</a></li>
 				</ul>
 			</nav>
@@ -123,7 +123,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<a id = "section_subtitle" class="section_subtitle" href="portfolio.html"></a>
+							<a id="section_subtitle_collections" class="section_subtitle" href="collections.html"></a>
 							<div class="section_title">- Envision F/W 19/20-</div>
 						</div>
 					</div>
@@ -171,7 +171,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<a class="section_subtitle" href="portfolio.html">Portfolio</a>
+							<a id="section_subtitle_portfolio" class="section_subtitle" href="portfolio.html"></a>
 							<div class="section_title">- Handbags-</div>
 						</div>
 					</div>
@@ -286,7 +286,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<a class="section_subtitle" href="portfolio.html">About me</a>
+							<a id="section_subtitle_aboutme" class="section_subtitle" href="about.html"></a>
 							<div class="section_title">Sonia Porcar</div>
 						</div>
 					</div>
@@ -317,11 +317,11 @@
 						<div class="footer_logo"><a href="index.html"><img id="logo" src="images/logo.png" alt="SoniaPorcarLogo"></a></div>
 						<nav class="footer_nav">
 							<ul>
-								<li><a href="#">home</a></li>
-								<li><a href="collections.html">collections</a></li>
+								<li><a id="footer_nav_home" href="#"></a></li>
+								<li><a id="footer_nav_collections" href="collections.html"></a></li>
 								<li><a href="portfolio.html">portfolio</a></li>
-								<li><a href="about.html">about</a></li>
-								<li><a href="contact.html">contact</a></li>
+								<li><a id="footer_nav_about"href="about.html"></a></li>
+								<li><a id="footer_nav_contact" href="contact.html"></a></li>
 							</ul>
 						</nav>
 						<div class="footer_social">
@@ -376,9 +376,20 @@
 	// just set some content and react to language changes
 	// could be optimized using vue-i18next, jquery-i18next, react-i18next, ...
 	function updateContent() {
-		document.getElementById('section_subtitle').innerHTML = i18next.t('section_subtitle');
+		document.getElementById('section_subtitle_collections').innerHTML = i18next.t('nav_collections');
+		document.getElementById('section_subtitle_portfolio').innerHTML = i18next.t('nav_collections');
+		document.getElementById('section_subtitle_aboutme').innerHTML = i18next.t('section_subtitle_about');
 
-		document.getElementById('info').innerHTML = `detected user language: "${i18next.language}"  --> loaded languages: "${i18next.languages.join(', ')}"`;
+		//NavBars
+		document.getElementById('main_nav_home').innerHTML = i18next.t('nav_home');
+		document.getElementById('main_nav_collections').innerHTML = i18next.t('nav_collections');
+		document.getElementById('main_nav_about').innerHTML = i18next.t('nav_about');
+		document.getElementById('main_nav_contact').innerHTML = i18next.t('nav_contact');
+
+		document.getElementById('footer_nav_home').innerHTML = i18next.t('nav_home');
+		document.getElementById('footer_nav_collections').innerHTML = i18next.t('nav_collections');
+		document.getElementById('footer_nav_about').innerHTML = i18next.t('nav_about');
+		document.getElementById('footer_nav_contact').innerHTML = i18next.t('nav_contact');
 	}
 
 	function changeLng(lng) {
