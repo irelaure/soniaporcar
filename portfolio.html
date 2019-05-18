@@ -370,6 +370,30 @@
 	<script src="plugins/parallax-js-master/parallax.min.js"></script>
 	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
 	<script src="js/custom.js"></script>
+	<!-- Magnific PopUp -->
+	<script src="plugins/magnific-popup/jquery.magnific-popup.js"></script>
+	<script type="application/javascript">
+	$(document).ready(function() {
+		$('.popup-gallery').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+				preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+			},
+			image: {
+				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+				titleSrc: function(item) {
+					// return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+				}
+			}
+		});
+	});
+	</script>
+	<!-- Multilanguage -->
 	<script src="plugins/i18next/i18next.min.js"></script>
 	<script src="plugins/i18next-xhr-backend/i18nextXHRBackend.js"></script>
 	<script src="plugins/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
