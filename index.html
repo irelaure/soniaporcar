@@ -20,37 +20,32 @@
 </head>
 
 <body>
-	
 	<div class="super_container">
-		
 		<!-- Header -->
-		
-			<header class="container-fluid mx-0 px-0">
-				<nav class="navbar fixed-top py-0 navbar-expand-lg navbar-light bg-light">
-				  <a class="navbar-brand" href="index.html"><img id="logo" src="images/logo.png" alt="SoniaPorcarLogo"></a>
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
-
-				  <div class="collapse navbar-collapse justify-content-center mb-5" id="navbarSupportedContent">
-				    <ul class="navbar-nav">
-				      <li class="nav-item align-middle mx-3 active"><a href="index.html">home</a></li>
-				      <li class="nav-item align-middle mx-3 "><a href="collections.html">collections</a></li>
-				      <li class="nav-item align-middle mx-3 dropdown">
-				        <a class="nav-link dropdown-toggle p-0" href="portfolio.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">portfolio</a>
-				        <div class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
-				          <a class="dropdown-item" href="index.html">home</a>
-				          <a class="dropdown-item" href="collections.html">collections</a>
-				          <a class="dropdown-item" href="about.html">about</a>
-				        </div>
-				      </li>
-				      <li class="nav-item align-middle mx-3"><a href="about.html">about</a></li>
-				      <li class="nav-item align-middle mx-3"><a href="contact.html">contact</a></li>
-				    </ul>
-				  </div>
-				</nav>
-			</header>
-
+		<header class="container-fluid mx-0 px-0">
+			<nav class="navbar fixed-top py-0 navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="index.html"><img id="logo" src="images/logo.png" alt="SoniaPorcarLogo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center mb-5" id="navbarSupportedContent">
+					<ul class="navbar-nav">
+						<li class="nav-item align-middle mx-3 active"><a id="main_nav_home" href="index.html"></a></li>
+						<li class="nav-item align-middle mx-3 "><a id="main_nav_collections" href="collections.html"></a></li>
+						<li class="nav-item align-middle mx-3 dropdown">
+							<a id="main_nav_portfolio" class="nav-link dropdown-toggle p-0" href="portfolio.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+							<div class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="index.html">home</a>
+								<a class="dropdown-item" href="collections.html">collections</a>
+								<a class="dropdown-item" href="about.html">about</a>
+							</div>
+						</li>
+						<li class="nav-item align-middle mx-3"><a id="main_nav_about" href="about.html"></a></li>
+						<li class="nav-item align-middle mx-3"><a id="main_nav_contact" href="contact.html"></a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
 		<!-- Menu -->
 		<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
 			<div class="menu_close_container">
@@ -69,7 +64,6 @@
 				</ul>
 			</nav>
 		</div>
-
 		<!-- Home -->
 		<div class="home">
 			<!-- Home Slider -->
@@ -135,7 +129,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<a class="section_subtitle" href="portfolio.html">Collections</a>
+							<a id="section_subtitle_collections" class="section_subtitle" href="collections.html"></a>
 							<div class="section_title">- Envision F/W 19/20-</div>
 						</div>
 					</div>
@@ -173,19 +167,17 @@
 							</div>
 						</div>
 					</div>
-
 					<a class="carousel-control-next product_slider_next" href="#carousel-envision" role="button" data-slide="next">
-						 <img src="images/arrow_r.png" />
+						<img src="images/arrow_r.png" />
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
 			</div>
-
 			<div class="container">
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<a class="section_subtitle" href="portfolio.html">Portfolio</a>
+							<a id="section_subtitle_portfolio" class="section_subtitle" href="portfolio.html"></a>
 							<div class="section_title">- Handbags-</div>
 						</div>
 					</div>
@@ -223,13 +215,8 @@
 							</div>
 						</div>
 					</div>
-					<!-- <a class="carousel-control-prev product_slider_next" href="#carousel-code" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a> -->
 					<a class="carousel-control-next product_slider_next" href="#carousel-code" role="button" data-slide="next">
-						<!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-						 <img src="images/arrow_r.png" />
+						<img src="images/arrow_r.png" />
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
@@ -243,54 +230,16 @@
 					<div class="col">
 						<div class="gallery_title text-center">
 							<ul>
-								<li><a href="#">#soniaporcar</a></li>
-								<li><a href="#">#fashiondesigner</a></li>
-								<li><a href="#">#fashion</a></li>
+								<li><a href="http://instagram.com/explore/tags/fashiondesigner" target="_blank">#fashiondesigner</a></li>
+								<li><a href="http://instagram.com/explore/tags/fashion" target="_blank">#fashion</a></li>
 							</ul>
 						</div>
-						<div class="button gallery_button"><a href="#">Instagram</a></div>
+						<div class="button gallery_button"><a href="https://www.instagram.com/sonia.porcar/" target="_blank">Instagram</a></div>
 					</div>
 				</div>
 			</div>
 			<div class="gallery_slider_container">
-				<!-- Gallery Slider -->
-				<div class="owl-carousel owl-theme gallery_slider">
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_1.jpg">
-							<img src="images/gallery_1.jpg" alt="">
-						</a>
-					</div>
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_2.jpg">
-							<img src="images/gallery_2.jpg" alt="">
-						</a>
-					</div>
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_3.jpg">
-							<img src="images/gallery_3.jpg" alt="">
-						</a>
-					</div>
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_4.jpg">
-							<img src="images/gallery_4.jpg" alt="">
-						</a>
-					</div>
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_5.jpg">
-							<img src="images/gallery_5.jpg" alt="">
-						</a>
-					</div>
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_6.jpg">
-							<img src="images/gallery_6.jpg" alt="">
-						</a>
-					</div>
+				<div id="instafeed-gallery-feed" class="owl-carousel owl-theme gallery row no-gutter">
 				</div>
 			</div>
 		</div>
@@ -300,24 +249,18 @@
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<a class="section_subtitle" href="portfolio.html">About me</a>
+							<a id="section_subtitle_aboutme" class="section_subtitle" href="about.html"></a>
 							<div class="section_title">Sonia Porcar</div>
 						</div>
 					</div>
 				</div>
 				<div class="row test_slider_container">
 					<div class="col">
-						<!-- Testimonials Slider -->
-						<div class="owl-carousel owl-theme test_slider text-center">
-							<!-- Testimonial Item -->
-							<div class="owl-item">
-								<div class="test_text">“Smile, trust, believe, love.”</div>
-								<div class="test_content">
-									<div class="test_image"><img src="images/testimonials.jpg" alt=""></div>
-									<div class="test_name">Sonia Porcar Serrador</div>
-									<div class="test_title">Fashion designer</div>
-								</div>
-							</div>
+						<div class="test_text text-center ">“Smile, trust, believe, love.”</div>
+						<div class="test_content">
+							<div class="test_image"><img src="images/testimonials.jpg" alt=""></div>
+							<div class="test_name text-center">Sonia Porcar Serrador</div>
+							<div class="test_title text-center ">Fashion designer</div>
 						</div>
 					</div>
 				</div>
@@ -331,11 +274,11 @@
 						<div class="footer_logo"><a href="index.html"><img id="logo" src="images/logo.png" alt="SoniaPorcarLogo"></a></div>
 						<nav class="footer_nav">
 							<ul>
-								<li><a href="#">home</a></li>
-								<li><a href="collections.html">collections</a></li>
-								<li><a href="portfolio.html">portfolio</a></li>
-								<li><a href="about.html">about</a></li>
-								<li><a href="contact.html">contact</a></li>
+								<li><a id="footer_nav_home" href="#"></a></li>
+								<li><a id="footer_nav_collections" href="collections.html"></a></li>
+								<li><a id="footer_nav_portfolio" href="portfolio.html"></a></li>
+								<li><a id="footer_nav_about" href="about.html"></a></li>
+								<li><a id="footer_nav_contact" href="contact.html"></a></li>
 							</ul>
 						</nav>
 						<div class="footer_social">
@@ -354,15 +297,133 @@
 				</div>
 			</div>
 		</footer>
-	</div>
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="styles/bootstrap4/popper.js"></script>
-	<script src="styles/bootstrap4/bootstrap.min.js"></script>
-	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-	<script src="plugins/easing/easing.js"></script>
-	<script src="plugins/parallax-js-master/parallax.min.js"></script>
-	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
-	<script src="js/custom.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="styles/bootstrap4/popper.js"></script>
+		<script src="styles/bootstrap4/bootstrap.min.js"></script>
+		<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+		<script src="plugins/easing/easing.js"></script>
+		<script src="plugins/parallax-js-master/parallax.min.js"></script>
+		<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+		<script src="js/custom.js"></script>
+		<!-- instafeed -->
+		<script src="plugins/instafeed/instafeed.js"></script>
+		<script type="text/javascript">
+		var galleryFeed = new Instafeed({
+			get: "user",
+			clientId: '01643f3997964fde8bdb1ec7a819d3d8',
+			userId: '8055754609',
+			accessToken: '8055754609.1677ed0.9e87c729851d42c9a19a09e0eb542b54',
+			resolution: "standard_resolution",
+			useHttp: "true",
+			limit: 15,
+			template: '<div class="img-featured-container">' +
+				'<div class="img-backdrop"></div>' +
+				'<div class="description-container"></div>' +
+				'<a href="{{link}}" target="_blank">' +
+				'<img src="{{image}}" class="img-responsive">' +
+				'</a>' +
+				'</div>',
+			target: "instafeed-gallery-feed",
+			after: function() {
+				// disable button if no more results to load
+				if (!this.hasNext()) {
+					btnInstafeedLoad.setAttribute('disabled', 'disabled');
+				}
+
+				var owl = $(".owl-carousel"),
+					owlSlideSpeed = 300;
+
+				// init owl    
+				$(document).ready(function() {
+					owl.owlCarousel({
+						margin: 10,
+						loop: true,
+						margin: 10,
+						nav: false,
+						responsive: {
+							0: {
+								items: 1
+							},
+							200: {
+								items: 2
+							},
+							400: {
+								items: 3
+							},
+							768: {
+								items: 5
+							}
+						}
+					});
+				});
+
+				// keyboard controls
+				$(document.documentElement).keydown(function(event) {
+					if (event.keyCode == 37) {
+						owl.trigger('prev.owl.carousel', [owlSlideSpeed]);
+					} else if (event.keyCode == 39) {
+						owl.trigger('next.owl.carousel', [owlSlideSpeed]);
+					}
+				});
+			}
+		});
+
+		galleryFeed.run();
+		</script>
+		<!-- Multilanguage -->
+		<script src="plugins/i18next/i18next.min.js"></script>
+		<script src="plugins/i18next-xhr-backend/i18nextXHRBackend.js"></script>
+		<script src="plugins/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
+		<script>
+		// import i18next from 'i18next'
+		i18next
+			.use(i18nextXHRBackend)
+			.use(i18nextBrowserLanguageDetector)
+			.init({
+				fallbackLng: 'en',
+				debug: true,
+				ns: ['common'],
+				defaultNS: 'common',
+				backend: {
+					// load from i18next-gitbook repo
+					loadPath: 'i18/{{lng}}/{{ns}}.json',
+					crossDomain: true
+				}
+			}, function(err, t) {
+				// init set content
+				updateContent();
+			});
+
+		// just set some content and react to language changes
+		// could be optimized using vue-i18next, jquery-i18next, react-i18next, ...
+		function updateContent() {
+			//Body
+			document.getElementById('section_subtitle_collections').innerHTML = i18next.t('nav_collections');
+			document.getElementById('section_subtitle_portfolio').innerHTML = i18next.t('nav_portfolio');
+			document.getElementById('section_subtitle_aboutme').innerHTML = i18next.t('section_subtitle_about');
+
+			//NavBars
+			document.getElementById('main_nav_home').innerHTML = i18next.t('nav_home');
+			document.getElementById('main_nav_collections').innerHTML = i18next.t('nav_collections');
+			document.getElementById('main_nav_portfolio').innerHTML = i18next.t('nav_portfolio');
+			document.getElementById('main_nav_about').innerHTML = i18next.t('nav_about');
+			document.getElementById('main_nav_contact').innerHTML = i18next.t('nav_contact');
+
+			document.getElementById('footer_nav_home').innerHTML = i18next.t('nav_home');
+			document.getElementById('footer_nav_collections').innerHTML = i18next.t('nav_collections');
+			document.getElementById('footer_nav_portfolio').innerHTML = i18next.t('nav_portfolio');
+			document.getElementById('footer_nav_about').innerHTML = i18next.t('nav_about');
+			document.getElementById('footer_nav_contact').innerHTML = i18next.t('nav_contact');
+		}
+
+		function changeLng(lng) {
+			i18next.changeLanguage(lng);
+		}
+
+		i18next.on('languageChanged', () => {
+			updateContent();
+		});
+		</script>
 </body>
 
 </html>
