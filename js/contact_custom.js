@@ -23,7 +23,7 @@ $(document).ready(function()
 
 	*/
 
-	var header = $('.header');
+	var header = $('header');
 	var menuActive = false;
 	var menu = $('.menu');
 	var burger = $('.burger_container');
@@ -52,7 +52,7 @@ $(document).ready(function()
 
 	function setHeader()
 	{
-		if($(window).scrollTop() > 100)
+		if($(window).scrollTop() > 80)
 		{
 			header.addClass('scrolled');
 		}
@@ -60,6 +60,16 @@ $(document).ready(function()
 		{
 			header.removeClass('scrolled');
 		}
+		
+		$('header li').hover(function () {
+			if($(this).hasClass('dropdown')) {
+				$('header nav').addClass('withsubmenu');
+				$(this).find('.dropdown-menu').addClass('show');
+			} else {
+				$('header nav').removeClass('withsubmenu');
+				header.find('.dropdown-menu').removeClass('show');
+			}
+		});
 	}
 
 	/* 
@@ -68,7 +78,7 @@ $(document).ready(function()
 
 	*/
 
-	function initMenu()
+	/*function initMenu()
 	{
 		if($('.menu').length)
 		{
@@ -113,6 +123,8 @@ $(document).ready(function()
 		menu.removeClass('active');
 		menuActive = false;
 	}
+	*/
+	
 	/* 
 
 	5. Init Accordions
