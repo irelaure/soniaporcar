@@ -224,9 +224,9 @@
 					<div class="col">
 						<div class="gallery_title text-center">
 							<ul>
-								<li><a href="#">#soniaporcar</a></li>
-								<li><a href="#">#fashiondesigner</a></li>
-								<li><a href="#">#fashion</a></li>
+								<!--<li><a href="http://instagram.com/explore/tags/soniaporcar">#soniaporcar</a></li> -->
+								<li><a href="http://instagram.com/explore/tags/fashiondesigner" target="_blank">#fashiondesigner</a></li>
+								<li><a href="http://instagram.com/explore/tags/fashion" target="_blank">#fashion</a></li>
 							</ul>
 						</div>
 						<div class="button gallery_button"><a href="#">Instagram</a></div>
@@ -322,8 +322,10 @@
 				'<div class="img-featured-container">' +
 				'<div class="img-backdrop"></div>' +
 				'<div class="description-container">' +
-				'</div>' +
-				'<img src="{{image}}" class="img-responsive">' +
+				'</div>' + 
+				'<a href="{{link}}" target="_blank">' +
+				'<img src="{{image}}" class="img-responsive">' + 
+				'</a>' +
 				'</div>',
 			target: "instafeed-gallery-feed",
 			after: function() {
