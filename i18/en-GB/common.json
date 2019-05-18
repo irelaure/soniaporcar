@@ -1,6 +1,10 @@
 {
 	"nav_home": "home",
 	"nav_portfolio": "portfolio",
+	"nav_tech_drawings": "technical drawings",
+	"nav_handbags": "handbags",
+	"nav_shoes": "shoes",
+	"nav_prints": "prints",
 	"nav_collections": "collections",
 	"nav_about": "about",
 	"nav_contact": "contact",
