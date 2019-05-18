@@ -209,12 +209,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- <a class="carousel-control-prev product_slider_next" href="#carousel-code" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a> -->
 					<a class="carousel-control-next product_slider_next" href="#carousel-code" role="button" data-slide="next">
-						<!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
 						<img src="images/arrow_r.png" />
 						<span class="sr-only">Next</span>
 					</a>
@@ -239,45 +234,7 @@
 				</div>
 			</div>
 			<div class="gallery_slider_container">
-				<!-- Gallery Slider -->
-				<div class="owl-carousel owl-theme gallery_slider">
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_1.jpg">
-							<img src="images/gallery_1.jpg" alt="">
-						</a>
-					</div>
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_2.jpg">
-							<img src="images/gallery_2.jpg" alt="">
-						</a>
-					</div>
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_3.jpg">
-							<img src="images/gallery_3.jpg" alt="">
-						</a>
-					</div>
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_4.jpg">
-							<img src="images/gallery_4.jpg" alt="">
-						</a>
-					</div>
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_5.jpg">
-							<img src="images/gallery_5.jpg" alt="">
-						</a>
-					</div>
-					<!-- Gallery Item -->
-					<div class="owl-item gallery_item">
-						<a class="colorbox" href="images/gallery_6.jpg">
-							<img src="images/gallery_6.jpg" alt="">
-						</a>
-					</div>
-				</div>
+				<div id="instafeed"></div>
 			</div>
 		</div>
 		<!-- Testimonials -->
@@ -309,6 +266,7 @@
 				</div>
 			</div>
 		</div>
+
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="container">
@@ -349,6 +307,19 @@
 	<script src="plugins/parallax-js-master/parallax.min.js"></script>
 	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
 	<script src="js/custom.js"></script>
+	<!-- instafeed -->
+	<script src="plugins/instafeed/instafeed.min.js"></script>
+	<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        clientId: '434cc5810cbb42ca879813dd1510f0c5',
+        userId: '45283684'
+
+    });
+    feed.run();
+</script>
+      
+	<!-- Multilanguage -->
 	<script src="plugins/i18next/i18next.min.js"></script>
 	<script src="plugins/i18next-xhr-backend/i18nextXHRBackend.js"></script>
 	<script src="plugins/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
