@@ -26,17 +26,20 @@
 				<div class="logo"><a href="index.html"><img id="logo" src="images/logo.png" alt="SoniaPorcarLogo"></a></div>
 				<nav class="main_nav">
 					<ul>
-						<li><a href="#">home</a></li>
-						<li><a href="collections.html">collections</a></li>
+						<li><a id="main_nav_home" href="#"></a></li>
+						<li><a id="main_nav_collections" href="collections.html"></a></li>
 						<li><a href="portfolio.html">portfolio</a></li>
-						<li><a href="about.html">about</a></li>
-						<li><a href="contact.html">contact</a></li>
+						<li><a id="main_nav_about" href="about.html"></a></li>
+						<li><a id="main_nav_contact" href="contact.html"></a></li>
 					</ul>
 				</nav>
-				<div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm"><div></div><div></div><div></div></div>
+				<div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
 			</div>
 		</header>
-
 		<!-- Menu -->
 		<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
 			<div class="menu_close_container">
@@ -55,7 +58,6 @@
 				</ul>
 			</nav>
 		</div>
-
 		<!-- Home -->
 		<div class="home">
 			<!-- Home Slider -->
@@ -121,7 +123,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<a class="section_subtitle" href="portfolio.html">Collections</a>
+							<a id="section_subtitle_collections" class="section_subtitle" href="collections.html"></a>
 							<div class="section_title">- Envision F/W 19/20-</div>
 						</div>
 					</div>
@@ -159,19 +161,17 @@
 							</div>
 						</div>
 					</div>
-
 					<a class="carousel-control-next product_slider_next" href="#carousel-envision" role="button" data-slide="next">
-						 <img src="images/arrow_r.png" />
+						<img src="images/arrow_r.png" />
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
 			</div>
-
 			<div class="container">
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<a class="section_subtitle" href="portfolio.html">Portfolio</a>
+							<a id="section_subtitle_portfolio" class="section_subtitle" href="portfolio.html"></a>
 							<div class="section_title">- Handbags-</div>
 						</div>
 					</div>
@@ -215,7 +215,7 @@
 					</a> -->
 					<a class="carousel-control-next product_slider_next" href="#carousel-code" role="button" data-slide="next">
 						<!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-						 <img src="images/arrow_r.png" />
+						<img src="images/arrow_r.png" />
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
@@ -286,7 +286,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<a class="section_subtitle" href="portfolio.html">About me</a>
+							<a id="section_subtitle_aboutme" class="section_subtitle" href="about.html"></a>
 							<div class="section_title">Sonia Porcar</div>
 						</div>
 					</div>
@@ -317,11 +317,11 @@
 						<div class="footer_logo"><a href="index.html"><img id="logo" src="images/logo.png" alt="SoniaPorcarLogo"></a></div>
 						<nav class="footer_nav">
 							<ul>
-								<li><a href="#">home</a></li>
-								<li><a href="collections.html">collections</a></li>
+								<li><a id="footer_nav_home" href="#"></a></li>
+								<li><a id="footer_nav_collections" href="collections.html"></a></li>
 								<li><a href="portfolio.html">portfolio</a></li>
-								<li><a href="about.html">about</a></li>
-								<li><a href="contact.html">contact</a></li>
+								<li><a id="footer_nav_about"href="about.html"></a></li>
+								<li><a id="footer_nav_contact" href="contact.html"></a></li>
 							</ul>
 						</nav>
 						<div class="footer_social">
@@ -349,6 +349,57 @@
 	<script src="plugins/parallax-js-master/parallax.min.js"></script>
 	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="plugins/i18next/i18next.min.js"></script>
+	<script src="plugins/i18next-xhr-backend/i18nextXHRBackend.js"></script>
+	<script src="plugins/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
+	<script>
+	// import i18next from 'i18next'
+	i18next
+		.use(i18nextXHRBackend)
+		.use(i18nextBrowserLanguageDetector)
+		.init({
+			fallbackLng: 'en',
+			debug: true,
+			ns: ['common'],
+			defaultNS: 'common',
+			backend: {
+				// load from i18next-gitbook repo
+				loadPath: 'i18/{{lng}}/{{ns}}.json',
+				crossDomain: true
+			}
+		}, function(err, t) {
+			// init set content
+			updateContent();
+		});
+
+
+	// just set some content and react to language changes
+	// could be optimized using vue-i18next, jquery-i18next, react-i18next, ...
+	function updateContent() {
+		document.getElementById('section_subtitle_collections').innerHTML = i18next.t('nav_collections');
+		document.getElementById('section_subtitle_portfolio').innerHTML = i18next.t('nav_collections');
+		document.getElementById('section_subtitle_aboutme').innerHTML = i18next.t('section_subtitle_about');
+
+		//NavBars
+		document.getElementById('main_nav_home').innerHTML = i18next.t('nav_home');
+		document.getElementById('main_nav_collections').innerHTML = i18next.t('nav_collections');
+		document.getElementById('main_nav_about').innerHTML = i18next.t('nav_about');
+		document.getElementById('main_nav_contact').innerHTML = i18next.t('nav_contact');
+
+		document.getElementById('footer_nav_home').innerHTML = i18next.t('nav_home');
+		document.getElementById('footer_nav_collections').innerHTML = i18next.t('nav_collections');
+		document.getElementById('footer_nav_about').innerHTML = i18next.t('nav_about');
+		document.getElementById('footer_nav_contact').innerHTML = i18next.t('nav_contact');
+	}
+
+	function changeLng(lng) {
+		i18next.changeLanguage(lng);
+	}
+
+	i18next.on('languageChanged', () => {
+		updateContent();
+	});
+	</script>
 </body>
 
 </html>
