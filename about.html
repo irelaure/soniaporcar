@@ -24,7 +24,7 @@
 					<ul>
 						<li><a id="main_nav_home" href="index.html"></a></li>
 						<li><a id="main_nav_collections" href="collections.html"></a></li>
-						<li><a href="portfolio.html">portfolio</a></li>
+						<li><a id="main_nav_portfolio" href="portfolio.html"></a></li>
 						<li><a id="main_nav_about" href="#"></a></li>
 						<li><a id="main_nav_contact" href="contact.html"></a></li>
 					</ul>
@@ -80,7 +80,7 @@
 							<ul>
 								<li><a id="footer_nav_home" href="index.html"></a></li>
 								<li><a id="footer_nav_collections" href="collections.html"></a></li>
-								<li><a href="portfolio.html">portfolio</a></li>
+								<li><a id="footer_nav_portfolio" href="#">portfolio</a></li>
 								<li><a id="footer_nav_about" href="#"></a></li>
 								<li><a id="footer_nav_contact" href="contact.html"></a></li>
 							</ul>
@@ -140,11 +140,13 @@
 		//NavBars
 		document.getElementById('main_nav_home').innerHTML = i18next.t('nav_home');
 		document.getElementById('main_nav_collections').innerHTML = i18next.t('nav_collections');
+		document.getElementById('main_nav_portfolio').innerHTML = i18next.t('nav_portfolio');
 		document.getElementById('main_nav_about').innerHTML = i18next.t('nav_about');
 		document.getElementById('main_nav_contact').innerHTML = i18next.t('nav_contact');
 
 		document.getElementById('footer_nav_home').innerHTML = i18next.t('nav_home');
 		document.getElementById('footer_nav_collections').innerHTML = i18next.t('nav_collections');
+		document.getElementById('footer_nav_portfolio').innerHTML = i18next.t('nav_portfolio');
 		document.getElementById('footer_nav_about').innerHTML = i18next.t('nav_about');
 		document.getElementById('footer_nav_contact').innerHTML = i18next.t('nav_contact');
 
