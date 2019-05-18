@@ -31,9 +31,10 @@
 						<li class="nav-item align-middle mx-3 dropdown">
 							<a id="main_nav_portfolio" class="nav-link dropdown-toggle p-0" href="portfolio.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
 							<div class="dropdown-menu mx-auto" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="index.html">home</a>
-								<a class="dropdown-item" href="collections.html">collections</a>
-								<a class="dropdown-item" href="about.html">about</a>
+								<a id="main_nav_tech_drawings" class="dropdown-item active" href="portfolio/tech_drawings.html"></a>
+								<a id="main_nav_handbags" class="dropdown-item active" href="portfolio/handbags.html"></a>
+								<a id="main_nav_shoes" class="dropdown-item active" href="portfolio/shoes.html"></a>
+								<a id="main_nav_prints" class="dropdown-item active" href="portfolio/prints.html"></a>
 							</div>
 						</li>
 						<li class="nav-item align-middle mx-3"><a id="main_nav_about" href="about.html"></a></li>
@@ -158,6 +159,10 @@
 		document.getElementById('main_nav_portfolio').innerHTML = i18next.t('nav_portfolio');
 		document.getElementById('main_nav_about').innerHTML = i18next.t('nav_about');
 		document.getElementById('main_nav_contact').innerHTML = i18next.t('nav_contact');
+		document.getElementById('main_nav_tech_drawings').innerHTML = i18next.t('nav_tech_drawings');
+		document.getElementById('main_nav_handbags').innerHTML = i18next.t('nav_handbags');
+		document.getElementById('main_nav_shoes').innerHTML = i18next.t('nav_shoes');
+		document.getElementById('main_nav_prints').innerHTML = i18next.t('nav_prints');
 
 		document.getElementById('footer_nav_home').innerHTML = i18next.t('nav_home');
 		document.getElementById('footer_nav_collections').innerHTML = i18next.t('nav_collections');
