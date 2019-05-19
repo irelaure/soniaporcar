@@ -707,6 +707,9 @@ section {
   font-size: 60px;
   color: #232323;
 }
+.footer_logo img {
+  max-width: 100%;
+}
 .footer_nav {
   margin-top: 14px;
 }

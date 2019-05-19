@@ -201,7 +201,7 @@ section {
   padding: 0px !important;
 }
 .section_title_container {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 .wofM {
   margin-bottom: -40px;
@@ -1003,6 +1003,9 @@ button.mfp-arrow {
   font-family: 'Lucida', serif;
   font-size: 60px;
   color: #232323;
+}
+.footer_logo img {
+  max-width: 100%;
 }
 .footer_nav {
   margin-top: 14px;
