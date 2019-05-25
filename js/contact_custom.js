@@ -41,7 +41,6 @@ $(document).ready(function()
 	// 	setHeader();
 	// });
 
-	initMenu();
 	initAccordions();
 	
 	/* 
