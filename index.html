@@ -122,43 +122,15 @@
 						</div>
 					</div>
 				</div>
-				<div id="carousel-envision" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="container">
-								<div class="row">
-									<div class="col-4 product_col">
-										<img src="images/product_1.jpg" class="w-100" alt="">
-									</div>
-									<div class="col-4 product_col">
-										<img src="images/product_2.jpg" class="w-100" alt="">
-									</div>
-									<div class="col-4 product_col">
-										<img src="images/product_3.jpg" class="w-100" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="container">
-								<div class="row">
-									<div class="col-4 product_col">
-										<img src="images/product_4.jpg" class="w-100" alt="">
-									</div>
-									<div class="col-4 product_col">
-										<img src="images/product_5.jpg" class="w-100" alt="">
-									</div>
-									<div class="col-4 product_col">
-										<img src="images/product_6.jpg" class="w-100" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
+				<div class="gallery_slider_container">
+					<div id='owl-collection' class="owl-carousel owl-theme row no-gutter carousel-gallery">
+							<img src="images/product_1.jpg" class="w-100" alt="">
+							<img src="images/product_2.jpg" class="w-100" alt="">
+							<img src="images/product_3.jpg" class="w-100" alt="">
+							<img src="images/product_4.jpg" class="w-100" alt="">
+							<img src="images/product_5.jpg" class="w-100" alt="">
+							<img src="images/product_6.jpg" class="w-100" alt="">
 					</div>
-					<a class="carousel-control-next product_slider_next" href="#carousel-envision" role="button" data-slide="next">
-						<img src="images/arrow_r.png" />
-						<span class="sr-only">Next</span>
-					</a>
 				</div>
 			</div>
 			<div class="container">
@@ -170,43 +142,18 @@
 						</div>
 					</div>
 				</div>
-				<div id="carousel-code" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="container">
-								<div class="row">
-									<div class="col-4 product_col">
-										<img src="images/Code_1.jpg" class="w-100" alt="">
-									</div>
-									<div class="col-4 product_col">
-										<img src="images/Code_2.jpg" class="w-100" alt="">
-									</div>
-									<div class="col-4 product_col">
-										<img src="images/Code_3.jpg" class="w-100" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="container">
-								<div class="row">
-									<div class="col-4 product_col">
-										<img src="images/Code_4.jpg" class="w-100" alt="">
-									</div>
-									<div class="col-4 product_col">
-										<img src="images/Code_5.jpg" class="w-100" alt="">
-									</div>
-									<div class="col-4 product_col">
-										<img src="images/Code_6.jpg" class="w-100" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
+				<div class="gallery_slider_container">
+					<div id='owl-portfolio' class="owl-carousel owl-theme row no-gutter carousel-gallery">
+							<img src="images/Code_1.jpg" class="w-100" alt="">
+							<img src="images/Code_2.jpg" class="w-100" alt="">
+							<img src="images/Code_3.jpg" class="w-100" alt="">
+							<img src="images/Code_4.jpg" class="w-100" alt="">
+							<img src="images/Code_5.jpg" class="w-100" alt="">
+							<img src="images/Code_6.jpg" class="w-100" alt="">
+							<img src="images/Code_1.jpg" class="w-100" alt="">
+							<img src="images/Code_2.jpg" class="w-100" alt="">
+							<img src="images/Code_3.jpg" class="w-100" alt="">
 					</div>
-					<a class="carousel-control-next product_slider_next" href="#carousel-code" role="button" data-slide="next">
-						<img src="images/arrow_r.png" />
-						<span class="sr-only">Next</span>
-					</a>
 				</div>
 			</div>
 		</div>
@@ -319,8 +266,7 @@
 					btnInstafeedLoad.setAttribute('disabled', 'disabled');
 				}
 
-				var owl = $(".owl-carousel"),
-					owlSlideSpeed = 300;
+				var owl = $("#instafeed-gallery-feed"), owl1 = $('.carousel-gallery'), owlSlideSpeed = 300;
 
 				// init owl    
 				$(document).ready(function() {
@@ -341,6 +287,26 @@
 							},
 							768: {
 								items: 5
+							}
+						}
+					});
+					owl1.owlCarousel({
+						margin: 10,
+						loop: true,
+						margin: 10,
+						nav: false,
+						responsive: {
+							0: {
+								items: 1
+							},
+							200: {
+								items: 3
+							},
+							400: {
+								items: 3
+							},
+							768: {
+								items: 3
 							}
 						}
 					});
