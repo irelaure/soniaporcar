@@ -2,7 +2,7 @@
  * NEW HEADER
  ************************************/
 .navbar {
-   background-color: white!important;
+  background-color: white!important;
 }
 header nav {
   -webkit-transition: all 200ms ease;
@@ -51,6 +51,11 @@ header nav #navbarSupportedContent .active a {
 header nav #navbarSupportedContent .nav-item {
   margin: 0 !important;
 }
+@media (max-width: 767.98px) {
+  header nav #navbarSupportedContent .nav-item {
+    margin-bottom: 1rem !important;
+  }
+}
 header nav #navbarSupportedContent a {
   font-size: 12px;
   text-transform: uppercase;
@@ -64,7 +69,6 @@ header nav #navbarSupportedContent a {
 header nav #navbarSupportedContent a:hover {
   border-bottom: 2px solid;
   background-color: white!important;
-
 }
 @media (max-width: 767.98px) {
   header nav #navbarSupportedContent li {
@@ -88,12 +92,23 @@ header nav #navbarSupportedContent .dropdown-menu {
     display: flex !important;
     position: fixed !important;
     top: 50px;
+    margin-top: 0.5rem;
     width: fit-content;
+  }
+}
+@media (max-width: 767.98px) {
+  header nav #navbarSupportedContent .dropdown-menu {
+    margin-left: 1rem !important;
   }
 }
 header nav #navbarSupportedContent .dropdown-menu .dropdown-item {
   padding-bottom: 0.2rem;
   width: auto;
+}
+@media (max-width: 767.98px) {
+  header nav #navbarSupportedContent .dropdown-menu .dropdown-item {
+    width: -webkit-min-content;
+  }
 }
 /*********************************
 3. Header
