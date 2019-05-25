@@ -28,11 +28,9 @@ header nav #navbarSupportedContent {
   position: fixed;
   width: 100%;
 }
-
 .navbar-light .navbar-toggler {
   border-color: white!important;
 }
-
 @media (max-width: 767.98px) {
   header nav #navbarSupportedContent {
     background-color: white!important;
@@ -45,7 +43,7 @@ header nav #navbarSupportedContent {
     height: 100% !important;
   }
 }
-header nav #navbarSupportedContent .active a {
+header nav #navbarSupportedContent .active > a {
   border-bottom: 2px solid;
 }
 header nav #navbarSupportedContent .nav-item {
@@ -104,6 +102,10 @@ header nav #navbarSupportedContent .dropdown-menu {
 header nav #navbarSupportedContent .dropdown-menu .dropdown-item {
   padding-bottom: 0.2rem;
   width: auto;
+  background-color: transparent!important;
+}
+header nav #navbarSupportedContent .dropdown-menu .active {
+  border-bottom: 2px solid;
 }
 @media (max-width: 767.98px) {
   header nav #navbarSupportedContent .dropdown-menu .dropdown-item {

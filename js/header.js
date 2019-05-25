@@ -39,11 +39,13 @@ $(document).ready(function() {
 	 * 	Despliega el menu en horizontal en la vista movil
 	 */
 	$( "#navbarSupportedContent" ).on( "shown.bs.collapse", function() {
-		$(this).animate({"right": 0 }, "slow" );
+		// demora
 	})
 	.on("show.bs.collapse", function() {
 	  $(this).css('position', 'fixed');
 	  $(this).css('right', 0-$(this).outerWidth(true));
+	  $(this).css('width', 'max-content');
+	  $(this).animate({"right": 0 }, "slow" );
 	})
 	.on( "hide.bs.collapse", function() {
 		$(this).animate({"right":  0-$(this).outerWidth(true) }, "slow" );
