@@ -373,6 +373,12 @@
 					crossDomain: true
 				}
 			}, function(err, t) {
+				// Polyfill for IE
+		    if (!String.prototype.includes) {
+		        String.prototype.includes = function () {
+		            return String.prototype.indexOf.apply(this, arguments) !== -1;
+		        };
+		    }
 				// init set content
 				updateContent();
 			});
@@ -380,6 +386,7 @@
 		// just set some content and react to language changes
 		// could be optimized using vue-i18next, jquery-i18next, react-i18next, ...
 		function updateContent() {
+
 			//Body
 			document.getElementById('section_subtitle_collections').innerHTML = i18next.t('nav_collections');
 			document.getElementById('section_subtitle_portfolio').innerHTML = i18next.t('nav_portfolio');
