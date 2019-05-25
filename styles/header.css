@@ -1,11 +1,15 @@
 /***********************************+
  * NEW HEADER
  ************************************/
+.navbar {
+   background-color: white!important;
+}
 header nav {
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
   -o-transition: all 200ms ease;
+  background-color: white!important;
 }
 header nav.withsubmenu {
   padding-bottom: 2rem !important;
@@ -26,7 +30,7 @@ header nav #navbarSupportedContent {
 }
 @media (max-width: 767.98px) {
   header nav #navbarSupportedContent {
-    background-color: #f8f9fa;
+    background-color: white!important;
     top: 60px;
     bottom: 0;
     margin-bottom: 0;
@@ -49,7 +53,8 @@ header nav #navbarSupportedContent a {
 }
 header nav #navbarSupportedContent a:hover {
   border-bottom: 2px solid;
-  color: inherit !important;
+  background-color: white!important;
+
 }
 @media (max-width: 767.98px) {
   header nav #navbarSupportedContent li {
