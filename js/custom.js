@@ -43,7 +43,6 @@ $(document).ready(function()
 	// });
 
 	initHomeSlider();
-	initMenu();
 	initGallery();
 	initTestSlider();
 	initLightbox();
