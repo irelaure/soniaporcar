@@ -1,7 +1,8 @@
 {
 	"nav_home": "home",
-	"nav_portfolio": "portfolio",
 	"nav_collections": "colecciones",
+	"nav_envision": "envision",
+	"nav_portfolio": "portfolio",
 	"nav_tech_drawings": "dibujos técnicos",
 	"nav_handbags": "bolsos",
 	"nav_shoes": "zapatos",
@@ -10,13 +11,15 @@
 	"nav_contact": "contacto",
 
 	"section_subtitle_about": "sobre mí",
+
+	"inspiration_quote": "Sonríe, confía, cree, ama.”",
 	
 	"sec_tit_tecDraw": "- dibujos técnicos -",
 	"sec_tit_handbags": "- bolsos -",
 	"sec_tit_shoes": "- zapatos -",
 	"sec_tit_prints": "- Prints -",
 
-	"description_about": "Sonia Porcar es una diseñadora de moda española que decidió luchar por su sueño después de acabar la carrera de Farmacia. <br>Se formó en el Istituto Marangoni de Milán y posteriormente hizo el máster de diseño de moda mujer en el Istituto Marangoni de Londres. <br>Sus diseños se caracterizan por ser patrones complejos que a la vista no lo parecen, habitualmente inspirados en arquitectura de diferentes culturas y países.",
+	"description_about": "Sonia Porcar es una diseñadora de moda española que decidió luchar por su sueño después de acabar la carrera de Farmacia. <br><br>Se formó en el Istituto Marangoni de Milán y posteriormente hizo el máster de diseño de moda mujer en el Istituto Marangoni de Londres. <br><br>Sus diseños se caracterizan por ser patrones complejos que a la vista no lo parecen, habitualmente inspirados en arquitectura de diferentes culturas y países.",
 
 	"contact_info": "información de contacto"
 }
