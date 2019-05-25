@@ -1,0 +1,912 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gree",
+				"greenUbeat"
+			],
+			[
+				"_comp",
+				"__competition"
+			],
+			[
+				"membe",
+				"member_doned"
+			],
+			[
+				"Member",
+				"membership"
+			],
+			[
+				"competitor_",
+				"competitor1_id"
+			],
+			[
+				"pr",
+				"profile_info"
+			],
+			[
+				"compe",
+				"competition_id"
+			],
+			[
+				"new",
+				"new_last_num_comp"
+			],
+			[
+				"last",
+				"last_num_comp"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"competi",
+				"competitor2_id"
+			],
+			[
+				"_compe",
+				"_competitor_points_ext"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"th",
+				"th\t<th>"
+			],
+			[
+				"is_in",
+				"is_int"
+			],
+			[
+				"var_",
+				"var_pruebas"
+			],
+			[
+				"var",
+				"var_copia"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"t",
+				"tbody\t<tbody>"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"status",
+				"statusPhoto"
+			],
+			[
+				"tho",
+				"throw\tThrow Exception"
+			],
+			[
+				"_team",
+				"_team_id"
+			],
+			[
+				"members",
+				"memberships_info_table"
+			],
+			[
+				"close",
+				"closest"
+			],
+			[
+				"captain",
+				"captain_id"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"_mesa",
+				"_message_title"
+			],
+			[
+				"forea",
+				"foreach\tforeach …"
+			],
+			[
+				"_start",
+				"__start_date"
+			],
+			[
+				"__start",
+				"__start_date"
+			],
+			[
+				"sub",
+				"sub_type"
+			],
+			[
+				"ranking_ou",
+				"ranking_out_id"
+			],
+			[
+				"ranking_in",
+				"ranking_in_id"
+			],
+			[
+				"_ran",
+				"_ranking"
+			],
+			[
+				"_ra",
+				"_ranking"
+			],
+			[
+				"_chal",
+				"_challenge_id"
+			],
+			[
+				"__ideni",
+				"__identifier_comp2"
+			],
+			[
+				"__identiifer",
+				"__identifier_comp1"
+			],
+			[
+				"_sele",
+				"__selected_config"
+			],
+			[
+				"num",
+				"numSets"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"playoff",
+				"playoffgroups"
+			],
+			[
+				"_mat",
+				"_match_id"
+			],
+			[
+				"matc",
+				"match_id"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"_ranki",
+				"_ranking_copy"
+			],
+			[
+				"ranking_",
+				"ranking_copy"
+			],
+			[
+				"_us",
+				"_user_id"
+			],
+			[
+				"_player",
+				"_player1_id"
+			],
+			[
+				"_clu",
+				"_club_id"
+			],
+			[
+				"_pro",
+				"_profile_info"
+			],
+			[
+				"_user",
+				"_user_real_data"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"scrip",
+				"script\tTag"
+			],
+			[
+				"strtime",
+				"strtotime"
+			],
+			[
+				"_club",
+				"_club_data"
+			],
+			[
+				"_curre",
+				"_current_club_id"
+			],
+			[
+				"club",
+				"club_info"
+			],
+			[
+				"_cur",
+				"_current_club_id"
+			],
+			[
+				"font-",
+				"font-weight\tproperty"
+			],
+			[
+				"num_",
+				"num_courts"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"_ptio",
+				"_options"
+			],
+			[
+				"data-",
+				"data-type"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"_stage_",
+				"_stage_id"
+			],
+			[
+				"bun",
+				"_bundle_patch"
+			],
+			[
+				"album",
+				"album-options"
+			],
+			[
+				"__id",
+				"__ids_compet"
+			],
+			[
+				"_id",
+				"_ids_compet"
+			],
+			[
+				"_opt",
+				"_options_include"
+			],
+			[
+				"email",
+				"email_accounts"
+			],
+			[
+				"emails-",
+				"email-accounts"
+			],
+			[
+				"main",
+				"main_title"
+			],
+			[
+				"_pic",
+				"__pictures"
+			],
+			[
+				"__abl",
+				"__album_id"
+			],
+			[
+				"_aux",
+				"_aux_rounds"
+			],
+			[
+				"las",
+				"lastname"
+			],
+			[
+				"emai",
+				"emails_old"
+			],
+			[
+				"cou",
+				"count_new"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"_alb",
+				"_album"
+			],
+			[
+				"_com",
+				"_competition_id"
+			],
+			[
+				"carousel",
+				"carousel-indicators"
+			],
+			[
+				"col",
+				"colspan\tAttr"
+			],
+			[
+				"play",
+				"player_res_id"
+			],
+			[
+				"tem",
+				"temp_couple"
+			],
+			[
+				"competitio",
+				"competition_name"
+			],
+			[
+				"_pl",
+				"_player1_id"
+			],
+			[
+				"bo",
+				"box_content"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"_inscrip",
+				"_inscription_id"
+			],
+			[
+				"us",
+				"users_ids"
+			],
+			[
+				"col-xs",
+				"col-xs-offset-2"
+			],
+			[
+				"gri",
+				"grid-item"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"_b",
+				"_blank"
+			],
+			[
+				"profile-pic",
+				"profile-picture-container"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pro",
+				"profileUser"
+			],
+			[
+				"fir",
+				"first-child"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"gal",
+				"galery_photo"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"des",
+				"despl_scroll_wind"
+			],
+			[
+				"hea",
+				"header_fixed_status"
+			],
+			[
+				"heade",
+				"header_fixed"
+			],
+			[
+				"h",
+				"header_fixed"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"f-g",
+				"f-goal-test-galaxy"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border-bo",
+				"border-bottom-right-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LESS-build/LESS.sublime-build",
+					""
+				],
+				[
+					"Packages/LESS-build/LESS.sublime-build",
+					"Minify"
+				]
+			],
+			[
+				"Packages/LESS-build/LESS.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"PdfLaTeX"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/wiidum/Webs/[W] SoniaPorcar_N"
+	],
+	"file_history":
+	[
+		"/private/etc/apache2/httpd.conf",
+		"/Users/wiidum/Webs/[R] UbeatGestion/css/assets_navigator.less",
+		"/Users/wiidum/Webs/[R] UbeatGestion/css/assets_navigator.css",
+		"/Users/wiidum/Webs/[R] UbeatGestion/css/_ubeat_colors.less",
+		"/Users/wiidum/Webs/[R] UbeatGestion/css/ubeat_style1.less",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/css/admin-theme.less",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/templates/admin-template.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/assets/bundle-visitors.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/stage-matches.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/assets/bundle-visitors_center_box.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/competition-config.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/css/admin-theme.css",
+		"/Users/wiidum/Webs/[R] UbeatGestion/competition_config.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/css/pending-matches.css",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/css/pending-matches.less",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/css/stage-matches.css",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/css/stage-matches.less",
+		"/Users/wiidum/Webs/[R] UbeatGestion/competitions/admin/assets/pending-matches.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/control/stages-controller.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/control/planning-controller.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/competitions/admin/control/matches-controller.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/competitions/admin/control/notifications-controller.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/model/matches_model.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/model/match_events_model.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/assets/stage-matches-view_match.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/css/ubeat_style.less",
+		"/Users/wiidum/Webs/[R] UbeatGestion/css/ubeat_style.css",
+		"/Users/wiidum/Webs/[R] UbeatGestion/users/permissions.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/users/assets/permissions_table.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/js/ubeat_functions.js",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/assets/competition-navigator.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/css/mixinsCSS.less",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/stage-config.php",
+		"/Users/wiidum/Webs/[R] UbeatGestion/ranking/admin/assets/stage-matches-edit_match.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/inscriptions-excel-team-sizes.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/sftp-config.json",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/general/admin/assets/webs_table.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/messages/templates/email_template_ligabbva.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/.htaccess",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/competition-inscriptions-SummerDaySopra.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/messages/index.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/messages/control/email_users_generator.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/general/admin/assets/webs_form.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/messages/css/admin_messages.css",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/messages/css/admin_messages.less",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/admin/pictures.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/assets/day_matches_table.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/control/notifications-controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/users_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/team_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/stages_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/matches_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/competitions_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/css/competition-inscriptions.css",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/users/assets/team_detail_info.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/users/control/permissions_controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/config/email-defaults.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/control/login.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/competition-inscriptions-team.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/competition-inscriptions.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/competition-inscriptions-singleGolf.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/general/admin/webs_config.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/general/admin/manual.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/assets/templates/g_template.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/css/competition-inscriptions.less",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/users/teams.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/users/assets/team_detail_table.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/membership_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/messages/control/froala_autosave.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/users/permissions.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/assets/sent_match_reminders_table.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/control/notifications-center-counters.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/assets/competition-notifications.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/js/stage-planning.js",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/control/planning-controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/js/competition-notifications.js",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/js/stage-planning.v2.js",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/notifications_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/notifications_controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/control/competitions_controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/control/pending-matches-controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/assets/changed_matches_table.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/users/assets/permissions_table.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/control/notifications-controller_old.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/control/notificationsTeam-controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/index.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/config/db-settings.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/points_bundles_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/messages/templates/email_template_golfBBVA.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/ubeat_object_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/control/logout.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/profiles_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/inscriptions-excel-sizes.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/competition-inscriptions-coupleSingle.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/users/css/users.less",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/users/control/people_controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/control/inscriptions-controllerTeam.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/config/email-accounts.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/users/assets/profile_detail_info.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/Inscription.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/users/users.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/InscriptionTeam2.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/assets/competition-variables.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/css/competition-inscriptions-team.less",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/css/competition-inscriptions-team.css",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/time_table_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/clubs_model.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/messages/templates/email_template_futbol7BBVA.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/control/email-controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/competition-inscriptions-team_old.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/stage-rankings.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/model/InscriptionTeam.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/assets/update-league-out_pro.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/assets/update-ranking-out.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/control/bundles-controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/control/competitions-controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/stage-detail-league.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/stage-matches.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/control/matches-controller_pro.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[0] Pruebas/index.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/assets/update-league-out.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/competitions/admin/control/matches-controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/stage-detail.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/users/control/users_controller.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/admin/assets/gallery_form.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/inscriptions-excel-contact-playing.php",
+		"/Users/wiidum/UBEAT/UBEAT SERVER/[R] UbeatGestion/ranking/admin/inscriptions-excel-contact.php"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 255.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 100.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 349.0
+	},
+	"pinned_build_system": "Packages/LESS-build/LESS.sublime-build",
+	"project": "IRENE_SoniaPorcar.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Webs/[R] Ubeat/UBEAT_Ubeat.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

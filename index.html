@@ -287,7 +287,7 @@
 		<script src="plugins/easing/easing.js"></script>
 		<script src="plugins/parallax-js-master/parallax.min.js"></script>
 		<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
-		<script src="js/custom.js"></script>
+		<script src="js/custom.js?v=1.1"></script>
 		<!-- instafeed -->
 		<script src="plugins/instafeed/instafeed.js"></script>
 		<script type="text/javascript">
@@ -409,6 +409,24 @@
 
 		i18next.on('languageChanged', () => {
 			updateContent();
+		});
+
+		$(document).ready(function() {
+
+			$( "#navbarSupportedContent" ).on( "shown.bs.collapse", function() {
+				$(this).animate({"right": 0 }, "slow" );
+			})
+			.on("show.bs.collapse", function() {
+			  $(this).css('position', 'fixed');
+			  $(this).css('right', 0-$(this).outerWidth(true));
+			})
+			.on( "hide.bs.collapse", function() {
+				$(this).animate({"right":  0-$(this).outerWidth(true) }, "slow" );
+			})
+			.on( "hidden.bs.collapse", function() {
+			  console.log('terminado');
+			});
+
 		});
 		</script>
 </body>
